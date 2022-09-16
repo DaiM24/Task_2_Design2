@@ -24,35 +24,36 @@ h2 {
 }
 nav > a{
     color: white;
-    background: blue;
+    background: rgb(54, 105, 214);
     padding: 1.5px 14px;
     text-decoration:none;
     margin-left: 25px;
     border: solid 2px black;
-    box-shadow: 3px 3px #585656;
+    box-shadow: 3px 3px #7c7a7a;
+}
+a:focus {
+    background: rgb(143, 197, 62);
 }
 nav{
     position: absolute;
     right: 1%;
-    top: 8%
+    top: 7%
 }
-
-/*.logo {
-    height: 200px;
-    position: absolute;
-    right: 8%;
-    top: 26%;
-}
-.mail{
-    margin-bottom: 15px;
+.logo {
+    width: 100px;
+    margin-top: 30px;
 }
 .container {
     display: flex;
+    margin-left: 15px;
 }
 .container-dates {
-    margin-top: 35px;
-    margin-left: 10px;
+    margin-top: 30px;
+    margin-left: 90px;
     width:70vw;
+}
+.mail{
+    margin-bottom: 15px;
 }
 .info{
     text-indent: 20px;
@@ -67,4 +68,4 @@ nav{
     margin-left: 25px;
     list-style-type: none;
     margin-bottom: 15px;
-} */
+}
